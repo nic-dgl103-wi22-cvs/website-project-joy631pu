@@ -29,4 +29,14 @@ nav li a:hover {
   color:white;
   }
   /*--End of navigation section--*/
+
+  /*--CSS style for h1--*/
+  h1{
+    background-color: beige;
+    font-size: 50px;
+    text-align: center;
+    width:700px;
+    padding: 15px;
+    margin: auto;
+  }
   
