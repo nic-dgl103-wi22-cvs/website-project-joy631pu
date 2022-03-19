@@ -3,30 +3,30 @@
 /*--CSS code for navigation section--*/
 /*--Start of navigation section--*/
 nav {
-    background-color:skyblue;
-  }
-  nav .wrapper {
-    width: 800px;
-    height: 90px;
-    padding: auto;
-    margin: auto;
-  }
-  nav ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-  }
-  
-  nav li a { 
-    padding: 35px 20px;
-    display:inline-block;
-    text-decoration:none;
-    color: #191645;
-  }
-  
-  nav li a:hover { 
-    background-color: #43C6Ac;
-    color: white;
+  background-color:skyblue;
+}
+nav .wrapper {
+  width: 800px;
+  height: 90px;
+  padding: auto;
+  margin: auto;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+nav li a { 
+  padding: 35px 20px;
+  display:inline-block;
+  text-decoration:none;
+  color: #191645;
+}
+
+nav li a:hover { 
+  background-color: #43C6Ac;
+  color:white;
   }
   /*--End of navigation section--*/
   
