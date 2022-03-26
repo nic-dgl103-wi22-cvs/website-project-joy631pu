@@ -1,4 +1,6 @@
-
+body{
+  background-color: antiquewhite;
+}
   
 /*--CSS code for navigation section--*/
 /*--Start of navigation section--*/
@@ -41,6 +43,83 @@ nav li a:hover {
     padding: 20px;
     margin: auto;
   }
+
+  h2{
+    font-size: 30px;
+  }
+  
+
+  article .wrapper {
+    background-color: #f3f3f4;
+    padding: 15px;
+    border: 1px solid #aaaaaa;
+    border-radius: 30px;
+    float: left;
+    width: calc(33.33% - 30px);
+    box-sizing: border-box;
+    margin: 15px;
+    position: relative;
+  }
+  
+  article .wrapper img { width: 100%; }
+  
+    .flex-container{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flex-container2{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+  .align-center{
+      align-items: center;
+  }
+  .item3{
+      align-items: flex-start;
+  }
+
+  .item4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+/*--CSS code for aside section using flexbox--*/
+  .flex-container3{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.align{
+    border: 2px solid #43C6Ac;
+    width: 30%;
+    margin-left: auto;
+    text-align: center;
+}
+
+
+  
+  
+  
+  
+  /*--CSS code for footer using flex--*/
+  .flex-container4 {
+    clear: both;
+    background-color: #191645;
+    color: white;
+    width: 98%;
+    height: 20px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+  }
+  
+
+  
+  
 
   
   
