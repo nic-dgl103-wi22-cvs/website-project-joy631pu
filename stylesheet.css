@@ -1,9 +1,10 @@
+/*--CSS styles for body element (of all html pages)--*/
 body{
   background-color: antiquewhite;
 }
   
-/*--CSS code for navigation section--*/
-/*--Start of navigation section--*/
+/*--CSS code for navigation section (of all html pages)--*/
+/*--Start of navigation section*/
 nav {
   background-color:skyblue;
   
@@ -34,7 +35,7 @@ nav li a:hover {
   }
   /*--End of navigation section--*/
 
-  /*--CSS style for h1--*/
+  /*--CSS style for h1 (of all pages)--*/
   h1{
     background-color: beige;
     font-size: 60px;
@@ -43,12 +44,12 @@ nav li a:hover {
     padding: 20px;
     margin: auto;
   }
-
+  /*--CSS style for h2 (of all pages)--*/
   h2{
     font-size: 30px;
   }
   
-
+  /*--CSS style for the article section of index.html file--*/
   article .wrapper {
     background-color: #f3f3f4;
     padding: 15px;
@@ -60,9 +61,10 @@ nav li a:hover {
     margin: 15px;
     position: relative;
   }
-  
+  /*--CSS style for the article section of index.html file--*/
   article .wrapper img { width: 100%; }
-  
+
+  /*--CSS style for the article sections of all localnews related (i.e. localnews.html,localnews2ceremony.html,etc.)file using flexbox--*/
     .flex-container{
     display: flex;
     flex-direction: row;
@@ -84,14 +86,12 @@ nav li a:hover {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
-/*--CSS code for aside section using flexbox--*/
+/*--CSS style for the aside sections of all localnews related (i.e. localnews.html,localnews2ceremony.html,etc.)file using flexbox--*/
   .flex-container3{
     display: flex;
     flex-direction: column;
     
 }
-
-
 
 .align{
     border: 2px solid #43C6Ac;
@@ -100,12 +100,7 @@ nav li a:hover {
     text-align: center;
 }
 
-
-  
-  
-  
-  
-  /*--CSS code for footer using flex--*/
+  /*--CSS code for footer (of all html pages)using flex--*/
   .flex-container4 {
     clear: both;
     background-color: #191645;
