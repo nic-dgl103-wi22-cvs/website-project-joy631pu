@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Sports</title>
     <!--Established link with external CSS file -->
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <!--Nav section starts here-->
-    <nav>
+        
+<!--Nav section starts here-->
+<nav>
         <div class="wrapper">
             <ul>
                 <li><img src="images/courtenaynews.png" alt="courtenaynews" width="100"></li>
@@ -21,10 +22,53 @@
                 <li><a href="advertise.html">Advertise</a></li>
             </ul>
         </div>
-    </nav>
-    <!--Header starts here-->
-    <header>
+</nav>
+<!--Header starts here-->
+<header>
         <h1>Courtenay News | News & Opinion Blog</h1>
-    </header>
+</header>
+<!--Main starts here-->
+<main class="flex-container">
+    <!--Article section-->
+    <article class="flex-container2 aligncenter">  
+    <div class="flex-item item3">
+       <h2>Address: 1783 England Ave, Courtenay,BC <br><hr>Email:<a href="mailto:admin@courtenaynews.ca">admin@courtenaynews.ca</a>  <br><hr>Phone: 778-992-5677&nbsp;&nbsp;&nbsp; Office Hours: Monday-Friday : From 9am to 5pm</h2>
+    </div>
+    <div class="flex-item item4">
+        <div class="wrapper-form">
+            <h2>Contact Form</h2>
+            
+              <label for="fname">First Name <span class="label-required">* (required)</span></label>
+              <input type="text" id="fname" name="firstname" placeholder="Ex: Joy">
+          
+              <label for="lname">Last Name <span class="label-required">* (required)</span></label>
+              <input type="text" id="lname" name="lastname" placeholder="Ex: Barua">
+
+              <label for="email">Email <span class="label-required">* (required)</span></label>
+              <input type="email" id="email" name="email" placeholder="Ex: joy@yahoo.com" required >
+
+              <label for="Phone">Phone Number</label>
+              <input type="tel" id="tel" name="Phone" placeholder="Ex: (+1) 778-992-5677" required >
+              <hr>
+                     
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Please tell us a little about your enquiry" style="height:200px"></textarea>
+          
+              <div class="wrapper-button">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+              </div>
+            
+          </div>
+    </div>
+    </article>
+   
+  </main>
+  <!--Footer starts here-->
+  <footer class="flex-container4">
+    <div class="flex-item item10">
+      &copy 2022, Courtenay News 
+    </div>
+  </footer>
 </body>
 </html>
