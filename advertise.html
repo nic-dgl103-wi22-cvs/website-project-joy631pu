@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advertise</title>
-    <!--Established link with external CSS file-->
+    <title>Sports</title>
+    <!--Established link with external CSS file -->
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <!--Nav section starts here-->
-    <nav>
+        
+<!--Nav section starts here-->
+<nav>
         <div class="wrapper">
             <ul>
                 <li><img src="images/courtenaynews.png" alt="courtenaynews" width="100"></li>
@@ -21,13 +22,61 @@
                 <li><a href="advertise.html">Advertise</a></li>
             </ul>
         </div>
-    </nav>
-    <!--Header starts here-->
-    <header>
+</nav>
+<!--Header starts here-->
+<header>
         <h1>Courtenay News | News & Opinion Blog</h1>
-    </header>
-    <main>
-        <!--Aside section-->
+</header>
+<!--Main starts here-->
+<main class="flex-container">
+    <!--Article section-->
+    <article class="flex-container2 aligncenter">  
+    <div class="flex-item item3">
+       <h2>&nbsp;&nbsp;||&nbsp;For Advertising through us please fill up the following form&nbsp;||</h2>
+    </div>
+    <div class="flex-item item4">
+        <div class="wrapper-form">
+            <h2>Contact Form</h2>
+            
+              <label for="fname">First Name <span class="label-required">* (required)</span></label>
+              <input type="text" id="fname" name="firstname" placeholder="Ex: Joy">
+          
+              <label for="lname">Last Name <span class="label-required">* (required)</span></label>
+              <input type="text" id="lname" name="lastname" placeholder="Ex: Barua">
+
+              <label for="cname">Company Name</label>
+              <input type="text" id="cname" name="companyname" placeholder="Ex: Walmart">
+
+              
+          
+              <label for="email">Email <span class="label-required">* (required)</span></label>
+              <input type="email" id="email" name="email" placeholder="Ex: joy@yahoo.com" required >
+
+              <label for="Phone">Phone Number <span class="label-required">* (required)</span></label>
+              <input type="tel" id="tel" name="Phone" placeholder="Ex: (+1) 7789925677" required >
+              <hr>
+              
+            
+              <fieldset>
+                <legend>How can we contact you</legend>
+                <input type="radio" id="w22" name="term" value="Phone">
+                <label for="w22">Phone</label><br>
+                <input type="radio" id="f22" name="term" value="Email">
+                <label for="f22">Email</label><br>
+              </fieldset>
+          
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Please tell us a little about your enquiry" style="height:200px"></textarea>
+          
+              <div class="wrapper-button">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+              </div>
+            
+          </div>
+    </div>
+    </article>
+   <!--Aside section-->
     <aside class="flex-container3 align">
         
         <h2>Advertisement</h2>
@@ -50,7 +99,12 @@
         </div>
         <hr>
     </aside>
-    </main>
-    
+  </main>
+  <!--Footer starts here-->
+  <footer class="flex-container4">
+    <div class="flex-item item10">
+      &copy 2022, Courtenay News 
+    </div>
+  </footer>
 </body>
 </html>

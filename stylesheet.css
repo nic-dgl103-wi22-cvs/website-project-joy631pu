@@ -116,6 +116,114 @@ nav li a:hover {
   .Ad{
     text-align: center;
   }
+
+  /* ===============
+   GLOBAL SETTINGS
+   =============== */
+
+* {
+  box-sizing: border-box;
+}
+
+/* ===============
+   TYPOGRAPHY
+   =============== */
+
+body {
+  font-family: sans-serif;
+}
+
+/* ===============
+   BUTTONS
+   =============== */
+
+input[type="reset"] {
+  color: #0e7a0d;
+  padding: 12px 20px;
+  border: 1px solid #0e7a0d;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: #d1efe3;
+}
+
+input[type="submit"] {
+  background-color: #0e7a0d;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid #0e7a0d;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #00ab66;
+}
+
+/* ===============
+   STRUCTURE
+   =============== */
+
+.wrapper-form {
+  border-radius: 5px;
+  background-color:antiquewhite;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.wrapper-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ===============
+   FORM CONTROLS
+   =============== */
+
+input,
+select,
+textarea {
+  font-size: 1em;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea {
+  font-family: sans-serif;
+}
+
+fieldset {
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+}
+
+.label-required {
+  font-size: 0.8rem;
+  color: red;
+}
   
 
   
