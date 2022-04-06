@@ -1,12 +1,15 @@
 /*--CSS styles for body element (of all html pages)--*/
 body{
   background-color: #aaaaaa;
+  background-image: url('images/background.jpg');
+  background-attachment: fixed;
+  
 }
   
 /*--CSS code for navigation section (of all html pages)--*/
 /*--Start of navigation section*/
 nav {
-  background-color:skyblue;
+  background-color:#191645;
   
   
 }
@@ -26,7 +29,7 @@ nav li a {
   padding: 35px 20px;
   display:inline-block;
   text-decoration:none;
-  color: #191645;
+  color:white;
 }
 
 nav li a:hover { 
@@ -47,6 +50,9 @@ nav li a:hover {
   /*--CSS style for h2 (of all pages)--*/
   h2{
     font-size: 30px;
+    color:white;
+    text-align: center;
+    background-color:#191645;
   }
   
   /*--CSS style for the article section of index.html file--*/
@@ -69,6 +75,7 @@ nav li a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color:white;
   }
 
   .flex-container2{
@@ -91,11 +98,12 @@ nav li a:hover {
   .flex-container3{
     display: flex;
     flex-direction: column;
+    background-color:white;
     
 }
 
 .align{
-    border: 2px solid #43C6Ac;
+    border: 2px;
     width: 30%;
     margin-left: auto;
     text-align: center;
@@ -228,6 +236,8 @@ fieldset {
   font-size: 0.8rem;
   color: red;
 }
+
+
   
 
   
