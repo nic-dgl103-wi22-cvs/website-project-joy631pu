@@ -1,6 +1,6 @@
 /*--CSS styles for body element (of all html pages)--*/
 body{
-  background-color: antiquewhite;
+  background-color: #aaaaaa;
 }
   
 /*--CSS code for navigation section (of all html pages)--*/
@@ -30,7 +30,7 @@ nav li a {
 }
 
 nav li a:hover { 
-  background-color: #43C6Ac;
+  background-color:aqua;
   color:white;
   }
   /*--End of navigation section--*/
@@ -51,7 +51,7 @@ nav li a:hover {
   
   /*--CSS style for the article section of index.html file--*/
   article .wrapper {
-    background-color: #f3f3f4;
+    background-color:azure;
     padding: 15px;
     border: 1px solid #aaaaaa;
     border-radius: 30px;
@@ -113,6 +113,8 @@ nav li a:hover {
     text-align: center;
   }
 
+  
+/*-----End Responsive Code--*/
   
 
   .Ad{
